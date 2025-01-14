@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List for 2025</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>HTML HEADDING</h1>
-    <h2>HTML HEADDING</h2>
-    <h3>HTML HEADDING</h3>
-    <h4>HTML HEADDING</h4>
-    <h5> HTML HEADDING</h5>
-    <h6>HTML HEADDING</h6>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab odit accusantium exercitationem assumenda deleniti amet, maiores, voluptate officiis labore vero corrupti excepturi vel reiciendis voluptates similique praesentium? Dolore, quae cupiditate?
-    </p>
-    <a href="http://google.com"target="_blank"> go to google</a>
-
-    <img width="200" height="200" src="img/pig1.jpg" alt="">
-
+<div class="background">
+    <div class="todo-2025">
+        <h2>To-Do List for 2025  <img src="icon.png" alt=""></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your List">
+                <button onclick="addTask()">Add</button>
+            </div>
+        <ul id="list-container">
+           <!-- <li class="checked">task 1</li>
+            <li>task 2</li>
+            <li>task 3</li> -->
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
